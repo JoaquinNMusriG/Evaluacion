@@ -1,5 +1,7 @@
 from claseProveedor import Proveedor
 from claseComprobante import Comprobante
+from ManejadorComprobantes import ManejadorComprobantes
+from ManejadorProveedores import ManejadorProveedores
 
 if __name__ == '__main__':
 

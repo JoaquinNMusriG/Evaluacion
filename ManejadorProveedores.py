@@ -23,8 +23,8 @@ class ManejadorProveedores:
         return cadena
     def buscarProveedorPorIdProveedor(self, idProveedor):
         for prov in self.__proveedores:
-            if (prov.getIdProveedor() == idProveedor):
-                return prov.getRazonSocial()       #????
+                if (prov.getIdProveedor() == idProveedor):
+                    return prov.getRazonSocial()       #????
 
     def buscarProveedorPorCUIT(self, cuit):
         for prov in self.__proveedores:
